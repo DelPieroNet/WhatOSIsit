@@ -24,7 +24,7 @@ Tenemos que ejecutar el script y espeficar la opcion de declarar la ip de la maq
 ```
 Nos reportara si es una maquina (Linux) o (Windows).
 
-#TTL
+# ttl
 
 Las maquinas linux se reconocen por tener de ttl --> 63 y las maquinas windows --> 127 cuando en realidad las maquina linux son 64 y las windows 128, la razon por la unidad que disminuye es, por que cuando estas resolviendo una maquina en hackthebox primero te conectas a tu VPN, y tu ip de la vpn pasa por otra ip y recien llega a la maquina victima. Puedes comprobarlo haciendo un ping y al final especificas la opcion -R.
 

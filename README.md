@@ -2,12 +2,12 @@
 Script que identifica que sistema operativo es.Solo aplica para las maquinas de la plataforma de HackTheBox.
 
 # Uso 
-primero tenemos que clonar el repositorio
+primero tenemos que clonar el repositorio.
 
 ```git
 git clone https://github.com/DelPieroNet/WhatOSIsit
 ```
-Ejecutamos el script WhatOSIsit.sh y nos aparecera el panel de ayuda
+Ejecutamos el script WhatOSIsit.sh y nos aparecera el panel de ayuda.
 
 ```bash
 ./WhatOSIsit.sh
@@ -22,5 +22,6 @@ Tenemos que ejecutar el script y espeficar la opcion de declarar la ip de la maq
 ```bash
 ./WhatOSIsit.sh -i 10.10.10.10
 ```
+Nos reportara si es una maquina (Linux) o (Windows).
 
 
